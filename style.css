@@ -41,3 +41,13 @@ ul{
 ul li{
     margin-right: 20px;
 }
+
+.contact{
+    background-color: #FFFFFF;
+}
+
+.contact a{
+    color: #171717;
+    margin-left: 5px;
+    margin-right: 5px;
+}
