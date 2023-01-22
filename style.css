@@ -22,6 +22,22 @@ header img{
 
 .navbar a{
     color: #FFFFFF;
+    position: relative;
+}
+
+.navbar a::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -7px;
+    left: 25%;
+    background-color: #FFFFFF;
+}
+
+.navbar a:hover::after{
+    transform: scaleX(1);
 }
 
 .header{
