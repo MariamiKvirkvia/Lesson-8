@@ -73,7 +73,7 @@ ul li{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 150px 200px;
+    padding: 150px 200px 20px;
 }
 
 h3{
@@ -94,6 +94,35 @@ h3{
     opacity: 1;
 }
 
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 200px;
+}
 
+.services .service1, .service2, .service3{
+    width: 250px;
+}
 
+h4{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
 
+p{
+    font-size: 16px;
+}
+
+.services span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.services span.active{
+    background-color: #0A22F4;
+}
