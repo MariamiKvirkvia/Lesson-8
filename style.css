@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    background-color: #0A22F4;
+}
+
+header img{
+    width: 97px;
+    height: 55px;
+}
+
+.navbar a{
+    color: #FFFFFF;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 22px 240px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li{
+    margin-right: 20px;
+}
